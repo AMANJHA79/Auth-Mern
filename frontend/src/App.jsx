@@ -10,7 +10,7 @@ import { useAuthStore } from "./store/authStore";
 import Home from "./pages/Home";
 import LoadingSpinner from "./components/LoadingSpinner";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
-import ResetPasswordPage from "./pages/resetPasswordPage";
+import ResetPasswordPage from "./pages/ResetPasswordPage";
 
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated, user } = useAuthStore();
